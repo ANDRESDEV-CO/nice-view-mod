@@ -23,8 +23,8 @@ manifest:
     # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: dsifry #new entry
-      url-base: https://github.com/dsifry #new entry
+    - name: ANDRESDEV-CO #new entry
+      url-base: https://github.com/ANDRESDEV-CO #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
