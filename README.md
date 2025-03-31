@@ -31,8 +31,8 @@ manifest:
       revision: main
       import: app/west.yml
     - name: nice-view-mod #new entry
-      remote: dsifry #new entry
-      revision: main #new entry
+      remote: ANDRESDEV-CO #new entry
+      revision: custom-animation #new entry
   self:
     path: config
 ```
