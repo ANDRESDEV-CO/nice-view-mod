@@ -363,11 +363,11 @@
  #define LV_ATTRIBUTE_MEM_ALIGN
  #endif
  
- #ifndef LV_ATTRIBUTE_IMG_ANDREW-DRAWING
- #define LV_ATTRIBUTE_IMG_ANDREW-DRAWING
+ #ifndef LV_ATTRIBUTE_IMG_ANDREW
+ #define LV_ATTRIBUTE_IMG_ANDREW
  #endif
  
- const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANDREW-DRAWING uint8_t andrew-drawing_map[] = {
+ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANDREW uint8_t andrew_map[] = {
  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
          0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
          0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
@@ -452,7 +452,7 @@
    .header.w = 140,
    .header.h = 68,
    .data_size = 1224,
-   .data = andrew-drawing_map,
+   .data = andrew_map,
  };
  
  
