@@ -467,14 +467,14 @@
 };
  
  const lv_img_dsc_t andrew = {
-   .header.cf = LV_IMG_CF_INDEXED_1BIT,
-   .header.always_zero = 0,
-   .header.reserved = 0,
-   .header.w = 140,
-   .header.h = 68,
-   .data_size = 1224,
-   .data = andrew_map,
- };
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
+  .header.always_zero = 0,
+  .header.reserved = 0,
+  .header.w = 140,
+  .header.h = 68,
+  .data_size = 1232,
+  .data = pixilart-drawing_map,
+};
  
  
  
